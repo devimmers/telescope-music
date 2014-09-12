@@ -11,7 +11,7 @@ Package.onUse(function(api) {
 
   // api.use(['http'], ['server']);
 
-  api.addFiles('vk-music-parse.js');
+  api.addFiles('vk-music-parse.js', ['server']);
   // api.export(['extendPost']);
 });
 
