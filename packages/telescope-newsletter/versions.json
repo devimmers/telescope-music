@@ -2,11 +2,11 @@
   "dependencies": [
     [
       "aldeed:simple-schema",
-      "1.0.3"
+      "0.7.0"
     ],
     [
       "application-configuration",
-      "1.0.1"
+      "1.0.0"
     ],
     [
       "binary-heap",
@@ -14,7 +14,7 @@
     ],
     [
       "blaze",
-      "2.0.0"
+      "1.0.3"
     ],
     [
       "blaze-tools",
@@ -33,20 +33,16 @@
       "0.2.0"
     ],
     [
-      "ddp",
-      "1.0.8"
-    ],
-    [
       "deps",
-      "1.0.3"
+      "1.0.1"
     ],
     [
       "ejson",
-      "1.0.1"
+      "1.0.0"
     ],
     [
       "follower-livedata",
-      "1.0.1"
+      "1.0.0"
     ],
     [
       "geojson-utils",
@@ -70,19 +66,19 @@
     ],
     [
       "iron:core",
-      "0.3.4"
+      "0.3.2"
     ],
     [
       "iron:dynamic-template",
-      "0.4.1"
+      "0.3.0"
     ],
     [
       "iron:layout",
-      "0.4.1"
+      "0.3.0"
     ],
     [
       "iron:router",
-      "0.9.3"
+      "0.9.1"
     ],
     [
       "jquery",
@@ -93,20 +89,20 @@
       "1.0.0"
     ],
     [
+      "livedata",
+      "1.0.7"
+    ],
+    [
       "logging",
       "1.0.2"
     ],
     [
       "meteor",
-      "1.0.3"
-    ],
-    [
-      "meteorhacks:async",
-      "1.0.0"
+      "1.0.2"
     ],
     [
       "meteorhacks:npm",
-      "1.2.0"
+      "1.1.2"
     ],
     [
       "minifiers",
@@ -114,11 +110,11 @@
     ],
     [
       "minimongo",
-      "1.0.2"
+      "1.0.1"
     ],
     [
-      "mongo",
-      "1.0.4"
+      "mongo-livedata",
+      "1.0.3"
     ],
     [
       "mrt:cookies",
@@ -130,7 +126,7 @@
     ],
     [
       "observe-sequence",
-      "1.0.2"
+      "1.0.1"
     ],
     [
       "ordered-dict",
@@ -138,7 +134,7 @@
     ],
     [
       "percolatestudio:synced-cron",
-      "0.3.0"
+      "0.1.1"
     ],
     [
       "random",
@@ -146,11 +142,7 @@
     ],
     [
       "reactive-dict",
-      "1.0.2"
-    ],
-    [
-      "reactive-var",
-      "1.0.1"
+      "1.0.0"
     ],
     [
       "retry",
@@ -162,11 +154,11 @@
     ],
     [
       "spacebars",
-      "1.0.1"
+      "1.0.0"
     ],
     [
       "spacebars-compiler",
-      "1.0.2"
+      "1.0.1"
     ],
     [
       "telescope-base",
@@ -182,15 +174,11 @@
     ],
     [
       "templating",
-      "1.0.5"
-    ],
-    [
-      "tracker",
-      "1.0.2"
+      "1.0.4"
     ],
     [
       "ui",
-      "1.0.2"
+      "1.0.0"
     ],
     [
       "underscore",
@@ -198,10 +186,10 @@
     ],
     [
       "webapp",
-      "1.0.3"
+      "1.0.2"
     ]
   ],
   "pluginDependencies": [],
-  "toolVersion": "meteor-tool@1.0.28",
+  "toolVersion": "meteor-tool@1.0.26",
   "format": "1.0"
 }

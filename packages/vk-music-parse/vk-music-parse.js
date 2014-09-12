@@ -33,23 +33,23 @@ getVkData = function (url) {
   // }
 }
 
-Meteor.methods({
-  testGetVkData: function (url) {
-    console.log(getVkData(url))
-  },
-  setThumbnail: function (post) {
-    var set = {};
-    if(post.url){
-      var data = getVkData(post.url);
-      if(!!data && !!data.thumbnailUrl)
-        set.thumbnailUrl = data.thumbnailUrl;
-      if(!!data && !!data.media.html)
-        set.media = data.media
-      console.log(set)
-      Posts.update({_id: post._id}, {$set: set});
-    }
-  }
-});
+// Meteor.methods({
+//   testGetVkData: function (url) {
+//     console.log(getVkData(url))
+//   },
+//   setThumbnail: function (post) {
+//     var set = {};
+//     if(post.url){
+//       var data = getVkData(post.url);
+//       if(!!data && !!data.thumbnailUrl)
+//         set.thumbnailUrl = data.thumbnailUrl;
+//       if(!!data && !!data.media.html)
+//         set.media = data.media
+//       console.log(set)
+//       Posts.update({_id: post._id}, {$set: set});
+//     }
+//   }
+// });
 
 extendPost = function (post) {
   if(post.url && /vk\.com/.test(post.url)){

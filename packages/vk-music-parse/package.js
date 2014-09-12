@@ -12,7 +12,7 @@ Package.onUse(function(api) {
   // api.use(['http'], ['server']);
 
   api.addFiles('vk-music-parse.js');
-  api.export(['extendPost']);
+  // api.export(['extendPost']);
 });
 
 Package.onTest(function(api) {

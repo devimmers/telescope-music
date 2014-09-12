@@ -2,11 +2,15 @@
   "dependencies": [
     [
       "blaze",
-      "2.0.0"
+      "1.0.3"
+    ],
+    [
+      "deps",
+      "1.0.1"
     ],
     [
       "ejson",
-      "1.0.1"
+      "1.0.0"
     ],
     [
       "geojson-utils",
@@ -30,15 +34,15 @@
     ],
     [
       "meteor",
-      "1.0.3"
+      "1.0.2"
     ],
     [
       "minimongo",
-      "1.0.2"
+      "1.0.1"
     ],
     [
       "observe-sequence",
-      "1.0.2"
+      "1.0.1"
     ],
     [
       "ordered-dict",
@@ -47,10 +51,6 @@
     [
       "random",
       "1.0.0"
-    ],
-    [
-      "reactive-var",
-      "1.0.1"
     ],
     [
       "telescope-base",
@@ -65,12 +65,8 @@
       "0.2.9"
     ],
     [
-      "tracker",
-      "1.0.2"
-    ],
-    [
       "ui",
-      "1.0.2"
+      "1.0.0"
     ],
     [
       "underscore",
@@ -78,6 +74,6 @@
     ]
   ],
   "pluginDependencies": [],
-  "toolVersion": "meteor-tool@1.0.28",
+  "toolVersion": "meteor-tool@1.0.26",
   "format": "1.0"
 }
