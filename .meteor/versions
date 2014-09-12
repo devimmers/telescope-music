@@ -54,6 +54,7 @@ minifiers@1.0.2
 minimongo@1.0.1
 mongo-livedata@1.0.3
 mrt:accounts-t9n@0.0.13
+mrt:cheerio@0.3.2
 mrt:cookies@0.3.0
 mrt:jquery-hotkeys@0.0.1
 mrt:mailchimp@0.4.0
